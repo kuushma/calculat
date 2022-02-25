@@ -6,6 +6,14 @@ from PyQt5 import uic
 from error import Error
 from unfaithful import Unfaithful
 from docx import Document
+from error_min_max import Error_min_max
+from number_error import Number_error
+from variables_error import Variables_error
+from emptiness_error import Emptiness_error
+from none_variable_error import None_variable_error
+from none_formula_error import None_formula_error
+from non_existent import Non_existent
+from no_variable import No_variable
 
 
 class task_generator(QMainWindow):
@@ -29,10 +37,12 @@ class task_generator(QMainWindow):
 
     def run(self):
         task_text = self.tasks_text.text()
+        if task_text.count('&') == 0:
+            self.None_variable_error()
         if task_text.count('&') % 2 != 0:
-            self.Error()
+            self.None_variable_error()
         elif task_text.count('&') // 2 > 1:
-            self.Error()
+            self.Variables_error()
         else:
             self.lst_text_task = task_text.split()
             task_text = list(task_text)
@@ -45,7 +55,7 @@ class task_generator(QMainWindow):
                 self.lst_variables.append(''.join(task_text[a1:a2]))
             for i in self.lst_variables:
                 if len(i) == 0:
-                    self.Error()
+                    self.Emptiness_error()
             for i in range(len(self.lst_variables)):
                 if i == 0:
                     for j in self.list_first:
@@ -70,17 +80,17 @@ class task_generator(QMainWindow):
     def Formula(self):
         a = self.formula.text()
         if a == '':
-            self.Error()
+            self.None_formula_error()
         self.lst_formula = list(a.split())
         self.check = ['*', '/', '-', '+']
         for i in self.lst_variables:
             self.check.append(i)
             if i not in self.lst_formula:
-                self.Unfaithful()
+                self.Non_existent()
         for i in self.lst_formula:
             if i not in self.check:
                 if not i.isdigit():
-                    self.Unfaithful()
+                    self.Non_existent()
                 else:
                     self.check.append(i)
         self.change_formula = self.lst_formula.copy()
@@ -94,12 +104,12 @@ class task_generator(QMainWindow):
                 if j.isChecked():
                     count += 1
             if count != 1:
-                self.Unfaithful()
+                self.Number_error()
             else:
                 count = 0
         self.sign = []
         if len(self.lst_variables) == 0:
-            self.Unfaithful()
+            self.Number_error()
         for i in range(len(self.lst_variables)):
             a = lst_buttengroup[i]
             if a[0].isChecked():
@@ -116,11 +126,13 @@ class task_generator(QMainWindow):
             a1 = float(a[0].text().replace(',', '.'))
             a2 = float(a[1].text().replace(',', '.'))
             if a1 == a2 or a1 > a2:
-                self.Error()
+                self.Error_min_max()
             elif len(self.lst_formula) == 0:
-                self.Error()
+                self.None_formula_error()
+            elif self.lst_variables[0] not in self.lst_formula:
+                self.No_variable()
             elif len(set(self.check) & set(self.lst_formula)) != len(self.lst_formula):
-                self.Error()
+                self.Non_existent()
             else:
                 self.cur.execute("""DELETE from tacks""")
                 self.variables.append([a1, a2])
@@ -188,3 +200,35 @@ class task_generator(QMainWindow):
 
     def Back(self):
         self.hide()
+
+    def Error_min_max(self):
+        self.fourth = Error_min_max()
+        self.fourth.show()
+
+    def Number_error(self):
+        self.fourth = Number_error()
+        self.fourth.show()
+
+    def Variables_error(self):
+        self.fourth = Variables_error()
+        self.fourth.show()
+
+    def Emptiness_error(self):
+        self.fourth = Emptiness_error()
+        self.fourth.show()
+
+    def None_variable_error(self):
+        self.fourth = None_variable_error()
+        self.fourth.show()
+
+    def None_formula_error(self):
+        self.fourth = None_formula_error()
+        self.fourth.show()
+
+    def Non_existent(self):
+        self.fourth = Non_existent()
+        self.fourth.show()
+
+    def No_variable(self):
+        self.fourth = No_variable()
+        self.fourth.show()
