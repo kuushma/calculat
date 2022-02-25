@@ -1,7 +1,7 @@
 from PyQt5.QtWidgets import QMainWindow
 from question import Qestion
 from area.area_circle import Circle
-from error import Error
+from error.error import Error
 from PyQt5.QtGui import QPixmap
 from Circle_ui import Circle_ui
 
