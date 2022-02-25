@@ -1,6 +1,6 @@
 from PyQt5.QtWidgets import QMainWindow
 from question import Qestion
-from error.error import Error
+from errorr.error import Error
 from area.area_rhombus import Rhombus
 from PyQt5.QtGui import QPixmap
 from Rhombus_ui import Rhombus_ui

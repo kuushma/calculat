@@ -1,6 +1,6 @@
 from PyQt5.QtWidgets import QMainWindow
 from question import Qestion
-from error.error import Error
+from errorr.error import Error
 from area.area_square import Square
 from PyQt5.QtGui import QPixmap
 from  Square_ui import  Square_ui

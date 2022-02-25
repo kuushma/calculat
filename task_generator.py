@@ -3,17 +3,17 @@ import random
 
 from PyQt5.QtWidgets import QMainWindow, QFileDialog
 from PyQt5 import uic
-from error.error import Error
-from error.unfaithful import Unfaithful
+from errorr.error import Error
+from errorr.unfaithful import Unfaithful
 from docx import Document
-from error.error_min_max import Error_min_max
-from error.number_error import Number_error
-from error.variables_error import Variables_error
-from error.emptiness_error import Emptiness_error
-from error.none_variable_error import None_variable_error
-from error.none_formula_error import None_formula_error
-from error.non_existent import Non_existent
-from error.no_variable import No_variable
+from errorr.error_min_max import Error_min_max
+from errorr.number_error import Number_error
+from errorr.variables_error import Variables_error
+from errorr.emptiness_error import Emptiness_error
+from errorr.none_variable_error import None_variable_error
+from errorr.none_formula_error import None_formula_error
+from errorr.non_existent import Non_existent
+from errorr.no_variable import No_variable
 
 
 class task_generator(QMainWindow):
