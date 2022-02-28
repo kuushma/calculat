@@ -1,9 +1,9 @@
 from PyQt5.QtWidgets import QMainWindow
-from question import Qestion
+from window_ui.question import Qestion
 from errorr.error import Error
 from area.area_rectangle import rectangle
 from PyQt5.QtGui import QPixmap
-from Rectangle_ui import Rectangle_ui
+from window_ui.Rectangle_ui import Rectangle_ui
 
 
 class Rectangle_Window(QMainWindow, Rectangle_ui):

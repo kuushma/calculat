@@ -1,10 +1,10 @@
 from PyQt5 import uic
 from PyQt5.QtWidgets import QMainWindow
-from question import Qestion
+from window_ui.question import Qestion
 from errorr.error import Error
 from area.area_parallelogram import Parallelogram
 from PyQt5.QtGui import QPixmap
-from Parallelogram_ui import Parallelogram_ui
+from window_ui.Parallelogram_ui import Parallelogram_ui
 
 
 class Parallelogram_Window(QMainWindow, Parallelogram_ui):

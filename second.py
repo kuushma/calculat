@@ -8,7 +8,7 @@ from window.Parallelogram_Window import Parallelogram_Window
 from window.Trapezoid_Window import Trapezoid_Window
 from window.Rhombus_Window import Rhombus_Window
 from window.Circle_Window import Circle_Window
-from question import Qestion
+from window_ui.question import Qestion
 
 
 class Second_Window(QMainWindow):

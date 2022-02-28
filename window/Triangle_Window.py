@@ -1,9 +1,9 @@
 from PyQt5.QtWidgets import QMainWindow
-from question import Qestion
+from window_ui.question import Qestion
 from area.area_triangle import Triangle
 from errorr.error import Error
 from PyQt5.QtGui import QPixmap
-from Triangle_ui import Triangle_ui
+from window_ui.Triangle_ui import Triangle_ui
 
 
 class Triangle_Window(QMainWindow, Triangle_ui):

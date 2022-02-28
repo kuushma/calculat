@@ -1,9 +1,9 @@
 from PyQt5.QtWidgets import QMainWindow
-from question import Qestion
+from window_ui.question import Qestion
 from errorr.error import Error
 from area.area_trapezoid import Trapezoid
 from PyQt5.QtGui import QPixmap
-from Trapezoid_ui import Trapezoid_ui
+from window_ui.Trapezoid_ui import Trapezoid_ui
 
 
 class Trapezoid_Window(QMainWindow, Trapezoid_ui):
