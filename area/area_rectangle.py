@@ -20,7 +20,7 @@ class rectangle():
             if (d ** 2 - a ** 2) >= 0:
                 ans = a * math.sqrt(d ** 2 - a ** 2)
                 return ans
-
+            return 'Ошибка'
         return 'Ошибка'
 
     def radius_and_side(self, a, R):

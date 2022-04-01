@@ -47,7 +47,7 @@ class Rectangle_Window(QMainWindow, Rectangle_ui):
         a = float(a.replace(',', '.'))
         d = self.side_diagonal_d.text()
         d = float(d.replace(',', '.'))
-        if rectangle().examination(a, d) == 'Ошибка':
+        if rectangle().side_diagonal(a, d) == 'Ошибка' or rectangle().examination(a, d):
             self.Error()
         else:
             self.side_diagonal_ans.display(rectangle().side_diagonal(a, d))
