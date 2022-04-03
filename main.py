@@ -9,7 +9,7 @@ from task_generator import task_generator
 class First_Window(QMainWindow):
     def __init__(self):
         super().__init__()
-        uic.loadUi('first.ui', self)
+        uic.loadUi('main.ui', self)
 
         self.Start.clicked.connect(self.change_first)
         self.TaSkS.clicked.connect(self.taSkS)
