@@ -10,7 +10,7 @@ from window_ui.Parallelogram_ui import Parallelogram_ui
 class Parallelogram_Window(QMainWindow, Parallelogram_ui):
     def __init__(self):
         super().__init__()
-        self.setupUi(self)
+        uic.loadUi('designerr/parallelogram.ui', self)
 
         self.back.clicked.connect(self.Back)
         self.question.clicked.connect(self.Qestion)

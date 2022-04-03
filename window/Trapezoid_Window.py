@@ -4,12 +4,13 @@ from errorr.error import Error
 from area.area_trapezoid import Trapezoid
 from PyQt5.QtGui import QPixmap
 from window_ui.Trapezoid_ui import Trapezoid_ui
+from PyQt5 import uic
 
 
 class Trapezoid_Window(QMainWindow, Trapezoid_ui):
     def __init__(self):
         super().__init__()
-        self.setupUi(self)
+        uic.loadUi('designerr/trapezoid.ui', self)
 
         self.back.clicked.connect(self.Back)
         self.qestion.clicked.connect(self.Qestion)

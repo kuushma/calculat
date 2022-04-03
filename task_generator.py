@@ -14,6 +14,7 @@ from errorr.none_variable_error import None_variable_error
 from errorr.none_formula_error import None_formula_error
 from errorr.non_existent import Non_existent
 from errorr.no_variable import No_variable
+from PyQt5 import uic
 
 
 class task_generator(QMainWindow):

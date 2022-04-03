@@ -6,8 +6,8 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>600</width>
-    <height>761</height>
+    <width>778</width>
+    <height>806</height>
    </rect>
   </property>
   <property name="windowTitle">
@@ -19,7 +19,7 @@
      <rect>
       <x>60</x>
       <y>110</y>
-      <width>481</width>
+      <width>661</width>
       <height>111</height>
      </rect>
     </property>
@@ -33,14 +33,14 @@
     <property name="geometry">
      <rect>
       <x>70</x>
-      <y>10</y>
-      <width>250</width>
-      <height>40</height>
+      <y>0</y>
+      <width>421</width>
+      <height>61</height>
      </rect>
     </property>
     <property name="font">
      <font>
-      <pointsize>38</pointsize>
+      <pointsize>34</pointsize>
      </font>
     </property>
     <property name="text">
@@ -53,7 +53,7 @@
       <x>60</x>
       <y>240</y>
       <width>60</width>
-      <height>35</height>
+      <height>51</height>
      </rect>
     </property>
     <property name="font">
@@ -74,6 +74,11 @@
       <height>35</height>
      </rect>
     </property>
+    <property name="font">
+     <font>
+      <pointsize>12</pointsize>
+     </font>
+    </property>
     <property name="text">
      <string>min</string>
     </property>
@@ -81,11 +86,16 @@
    <widget class="QLabel" name="label_4">
     <property name="geometry">
      <rect>
-      <x>280</x>
+      <x>290</x>
       <y>240</y>
       <width>60</width>
       <height>35</height>
      </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>12</pointsize>
+     </font>
     </property>
     <property name="text">
      <string>max</string>
@@ -95,10 +105,15 @@
     <property name="geometry">
      <rect>
       <x>170</x>
-      <y>280</y>
+      <y>300</y>
       <width>100</width>
       <height>20</height>
      </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>12</pointsize>
+     </font>
     </property>
     <property name="text">
      <string>Целое</string>
@@ -111,10 +126,15 @@
     <property name="geometry">
      <rect>
       <x>320</x>
-      <y>280</y>
-      <width>121</width>
+      <y>300</y>
+      <width>161</width>
       <height>20</height>
      </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>12</pointsize>
+     </font>
     </property>
     <property name="text">
      <string>Вещественное</string>
@@ -139,11 +159,16 @@
    <widget class="QPushButton" name="Run">
     <property name="geometry">
      <rect>
-      <x>450</x>
-      <y>220</y>
-      <width>151</width>
+      <x>470</x>
+      <y>230</y>
+      <width>221</width>
       <height>51</height>
      </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>14</pointsize>
+     </font>
     </property>
     <property name="text">
      <string>Найти переменные</string>
@@ -154,13 +179,13 @@
      <rect>
       <x>10</x>
       <y>550</y>
-      <width>211</width>
+      <width>291</width>
       <height>35</height>
      </rect>
     </property>
     <property name="font">
      <font>
-      <pointsize>25</pointsize>
+      <pointsize>20</pointsize>
      </font>
     </property>
     <property name="text">
@@ -172,9 +197,14 @@
      <rect>
       <x>10</x>
       <y>590</y>
-      <width>91</width>
-      <height>24</height>
+      <width>121</width>
+      <height>31</height>
      </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>16</pointsize>
+     </font>
     </property>
     <property name="minimum">
      <number>1</number>
@@ -185,13 +215,13 @@
      <rect>
       <x>10</x>
       <y>620</y>
-      <width>251</width>
-      <height>35</height>
+      <width>411</width>
+      <height>51</height>
      </rect>
     </property>
     <property name="font">
      <font>
-      <pointsize>25</pointsize>
+      <pointsize>23</pointsize>
      </font>
     </property>
     <property name="text">
@@ -201,8 +231,8 @@
    <widget class="QLabel" name="fourth_variable_4">
     <property name="geometry">
      <rect>
-      <x>230</x>
-      <y>670</y>
+      <x>390</x>
+      <y>680</y>
       <width>371</width>
       <height>35</height>
      </rect>
@@ -219,11 +249,16 @@
    <widget class="QDoubleSpinBox" name="first_min">
     <property name="geometry">
      <rect>
-      <x>190</x>
+      <x>200</x>
       <y>240</y>
       <width>68</width>
       <height>24</height>
      </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>12</pointsize>
+     </font>
     </property>
     <property name="minimum">
      <double>-9999.000000000000000</double>
@@ -235,11 +270,16 @@
    <widget class="QDoubleSpinBox" name="first_max">
     <property name="geometry">
      <rect>
-      <x>320</x>
+      <x>360</x>
       <y>240</y>
       <width>68</width>
       <height>24</height>
      </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>12</pointsize>
+     </font>
     </property>
     <property name="minimum">
      <double>-9999.000000000000000</double>
@@ -253,9 +293,14 @@
      <rect>
       <x>60</x>
       <y>60</y>
-      <width>451</width>
+      <width>591</width>
       <height>21</height>
      </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>12</pointsize>
+     </font>
     </property>
     <property name="text">
      <string>Введите тест задачи, нужные данные запиши в этом знаке &amp;&amp;</string>
@@ -270,6 +315,11 @@
       <height>20</height>
      </rect>
     </property>
+    <property name="font">
+     <font>
+      <pointsize>12</pointsize>
+     </font>
+    </property>
     <property name="text">
      <string>Пример: &amp;N&amp;</string>
     </property>
@@ -277,11 +327,16 @@
    <widget class="QPushButton" name="save">
     <property name="geometry">
      <rect>
-      <x>400</x>
-      <y>560</y>
-      <width>161</width>
+      <x>550</x>
+      <y>550</y>
+      <width>201</width>
       <height>41</height>
      </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>16</pointsize>
+     </font>
     </property>
     <property name="text">
      <string>Сгенерировать</string>
@@ -290,7 +345,7 @@
    <widget class="QLineEdit" name="formula">
     <property name="geometry">
      <rect>
-      <x>262</x>
+      <x>430</x>
       <y>610</y>
       <width>321</width>
       <height>51</height>
@@ -306,10 +361,15 @@
     <property name="geometry">
      <rect>
       <x>20</x>
-      <y>660</y>
-      <width>191</width>
-      <height>41</height>
+      <y>680</y>
+      <width>221</width>
+      <height>51</height>
      </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>16</pointsize>
+     </font>
     </property>
     <property name="text">
      <string>Сохранить</string>
@@ -321,8 +381,8 @@
     <rect>
      <x>0</x>
      <y>0</y>
-     <width>600</width>
-     <height>24</height>
+     <width>778</width>
+     <height>26</height>
     </rect>
    </property>
   </widget>

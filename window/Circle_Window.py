@@ -4,12 +4,13 @@ from area.area_circle import Circle
 from errorr.error import Error
 from PyQt5.QtGui import QPixmap
 from window_ui.Circle_ui import Circle_ui
+from PyQt5 import uic
 
 
 class Circle_Window(QMainWindow, Circle_ui):
     def __init__(self):
         super().__init__()
-        self.setupUi(self)
+        uic.loadUi('designerr/circle.ui', self)
 
         self.back.clicked.connect(self.Back)
         self.question.clicked.connect(self.Qestion)

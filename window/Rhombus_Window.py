@@ -4,13 +4,14 @@ from errorr.error import Error
 from area.area_rhombus import Rhombus
 from PyQt5.QtGui import QPixmap
 from window_ui.Rhombus_ui import Rhombus_ui
+from PyQt5 import uic
 
 
 
 class Rhombus_Window(QMainWindow, Rhombus_ui):
     def __init__(self):
         super().__init__()
-        self.setupUi(self)
+        uic.loadUi('designerr/rhombus.ui', self)
 
         self.back.clicked.connect(self.Back)
         self.qestion.clicked.connect(self.Qestion)

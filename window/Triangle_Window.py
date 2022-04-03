@@ -4,12 +4,13 @@ from area.area_triangle import Triangle
 from errorr.error import Error
 from PyQt5.QtGui import QPixmap
 from window_ui.Triangle_ui import Triangle_ui
+from PyQt5 import uic
 
 
 class Triangle_Window(QMainWindow, Triangle_ui):
     def __init__(self):
         super().__init__()
-        self.setupUi(self)
+        uic.loadUi('designerr/triangle.ui', self)
 
         self.back.clicked.connect(self.Back)
         self.question.clicked.connect(self.Qestion)

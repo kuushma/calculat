@@ -25,6 +25,7 @@ class rectangle():
 
     def radius_and_side(self, a, R):
         if rectangle.examination(a, R):
+
             ans = a * math.sqrt(4 * R ** 2 - a ** 2)
             return ans
         else:

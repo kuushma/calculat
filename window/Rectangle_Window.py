@@ -4,12 +4,13 @@ from errorr.error import Error
 from area.area_rectangle import rectangle
 from PyQt5.QtGui import QPixmap
 from window_ui.Rectangle_ui import Rectangle_ui
+from PyQt5 import uic
 
 
 class Rectangle_Window(QMainWindow, Rectangle_ui):
     def __init__(self):
         super().__init__()
-        self.setupUi(self)
+        uic.loadUi('designerr/rectangle.ui', self)
 
         self.back.clicked.connect(self.Back)
         self.question.clicked.connect(self.Qestion)

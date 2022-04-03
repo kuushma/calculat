@@ -6,8 +6,8 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>862</width>
-    <height>525</height>
+    <width>1254</width>
+    <height>712</height>
    </rect>
   </property>
   <property name="font">
@@ -19,7 +19,7 @@
    <string>MainWindow</string>
   </property>
   <property name="styleSheet">
-   <string notr="true">background-color: rgb(45, 37, 64);</string>
+   <string notr="true">background-color: rgb(238, 240, 246)</string>
   </property>
   <widget class="QWidget" name="centralwidget">
    <layout class="QGridLayout" name="gridLayout">
@@ -35,7 +35,7 @@
            </font>
           </property>
           <property name="styleSheet">
-           <string notr="true">background-color: rgb(187, 184, 227);</string>
+           <string notr="true">background-color: rgb(156, 185, 209)</string>
           </property>
           <property name="text">
            <string>Параллелограмм</string>
@@ -50,7 +50,7 @@
            </font>
           </property>
           <property name="styleSheet">
-           <string notr="true">background-color: rgb(191, 221, 255);</string>
+           <string notr="true">background-color: rgb(156, 185, 209)</string>
           </property>
           <property name="text">
            <string>Прямоугольник</string>
@@ -65,7 +65,7 @@
            </font>
           </property>
           <property name="styleSheet">
-           <string notr="true">background-color: rgb(187, 184, 227);</string>
+           <string notr="true">background-color: rgb(156, 185, 209)</string>
           </property>
           <property name="text">
            <string>Квадрат</string>
@@ -83,7 +83,7 @@
            </font>
           </property>
           <property name="styleSheet">
-           <string notr="true">background-color: rgb(191, 221, 255);</string>
+           <string notr="true">background-color: rgb(156, 185, 209)</string>
           </property>
           <property name="text">
            <string>Треугольник</string>
@@ -98,7 +98,7 @@
            </font>
           </property>
           <property name="styleSheet">
-           <string notr="true">background-color: rgb(191, 221, 255);</string>
+           <string notr="true">background-color: rgb(156, 185, 209)</string>
           </property>
           <property name="text">
            <string>Круг</string>
@@ -113,7 +113,7 @@
            </font>
           </property>
           <property name="styleSheet">
-           <string notr="true">background-color: rgb(187, 184, 227);</string>
+           <string notr="true">background-color: rgb(156, 185, 209)</string>
           </property>
           <property name="text">
            <string>Ромб</string>
@@ -132,8 +132,8 @@
        </font>
       </property>
       <property name="styleSheet">
-       <string notr="true">
-background-color: rgb(135, 139, 221);</string>
+       <string notr="true">background-color: rgb(9, 77, 116)
+</string>
       </property>
       <property name="text">
        <string>&lt;--</string>
@@ -148,7 +148,7 @@ background-color: rgb(135, 139, 221);</string>
        </font>
       </property>
       <property name="styleSheet">
-       <string notr="true">background-color: rgb(135, 139, 221);</string>
+       <string notr="true">background-color: rgb(9, 77, 116)</string>
       </property>
       <property name="text">
        <string>?</string>
@@ -169,10 +169,10 @@ background-color: rgb(135, 139, 221);</string>
        <string>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
 &lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
 p, li { white-space: pre-wrap; }
-&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'.AppleSystemUIFont'; font-size:40pt; font-weight:400; font-style:normal;&quot;&gt;
-&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; color:#ffffff;&quot;&gt;Чтобы продолжить выберите фигуру, &lt;/span&gt;&lt;/p&gt;
-&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; color:#ffffff;&quot;&gt;площадь которой &lt;/span&gt;&lt;/p&gt;
-&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; color:#ffffff;&quot;&gt;вы хотите расчитать:)&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'MS Shell Dlg 2'; font-size:40pt; font-weight:400; font-style:normal;&quot;&gt;
+&lt;p align=&quot;center&quot; style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'.AppleSystemUIFont'; font-size:36pt; color:#000000;&quot;&gt;Чтобы продолжить выберите фигуру, &lt;/span&gt;&lt;/p&gt;
+&lt;p align=&quot;center&quot; style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'.AppleSystemUIFont'; font-size:36pt; color:#000000;&quot;&gt;площадь которой &lt;/span&gt;&lt;/p&gt;
+&lt;p align=&quot;center&quot; style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'.AppleSystemUIFont'; font-size:36pt; color:#000000;&quot;&gt;вы хотите расчитать:)&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
       </property>
      </widget>
     </item>
@@ -184,7 +184,7 @@ p, li { white-space: pre-wrap; }
        </font>
       </property>
       <property name="styleSheet">
-       <string notr="true">background-color: rgb(135, 139, 221);</string>
+       <string notr="true">background-color: rgb(156, 185, 209)</string>
       </property>
       <property name="text">
        <string>Трапеция</string>
@@ -198,8 +198,8 @@ p, li { white-space: pre-wrap; }
     <rect>
      <x>0</x>
      <y>0</y>
-     <width>862</width>
-     <height>24</height>
+     <width>1254</width>
+     <height>26</height>
     </rect>
    </property>
   </widget>
