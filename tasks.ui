@@ -6,8 +6,8 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>778</width>
-    <height>806</height>
+    <width>773</width>
+    <height>783</height>
    </rect>
   </property>
   <property name="windowTitle">
@@ -18,7 +18,7 @@
     <property name="geometry">
      <rect>
       <x>60</x>
-      <y>110</y>
+      <y>160</y>
       <width>661</width>
       <height>111</height>
      </rect>
@@ -51,7 +51,7 @@
     <property name="geometry">
      <rect>
       <x>60</x>
-      <y>240</y>
+      <y>280</y>
       <width>60</width>
       <height>51</height>
      </rect>
@@ -69,7 +69,7 @@
     <property name="geometry">
      <rect>
       <x>150</x>
-      <y>240</y>
+      <y>280</y>
       <width>51</width>
       <height>35</height>
      </rect>
@@ -87,7 +87,7 @@
     <property name="geometry">
      <rect>
       <x>290</x>
-      <y>240</y>
+      <y>280</y>
       <width>60</width>
       <height>35</height>
      </rect>
@@ -105,7 +105,7 @@
     <property name="geometry">
      <rect>
       <x>170</x>
-      <y>300</y>
+      <y>330</y>
       <width>100</width>
       <height>20</height>
      </rect>
@@ -126,7 +126,7 @@
     <property name="geometry">
      <rect>
       <x>320</x>
-      <y>300</y>
+      <y>330</y>
       <width>161</width>
       <height>20</height>
      </rect>
@@ -160,7 +160,7 @@
     <property name="geometry">
      <rect>
       <x>470</x>
-      <y>230</y>
+      <y>270</y>
       <width>221</width>
       <height>51</height>
      </rect>
@@ -196,7 +196,7 @@
     <property name="geometry">
      <rect>
       <x>10</x>
-      <y>590</y>
+      <y>580</y>
       <width>121</width>
       <height>31</height>
      </rect>
@@ -213,19 +213,19 @@
    <widget class="QLabel" name="fourth_variable_3">
     <property name="geometry">
      <rect>
-      <x>10</x>
-      <y>620</y>
+      <x>20</x>
+      <y>610</y>
       <width>411</width>
       <height>51</height>
      </rect>
     </property>
     <property name="font">
      <font>
-      <pointsize>23</pointsize>
+      <pointsize>18</pointsize>
      </font>
     </property>
     <property name="text">
-     <string>Формула для задачи</string>
+     <string>Формула для вычисления ответа на задачу</string>
     </property>
    </widget>
    <widget class="QLabel" name="fourth_variable_4">
@@ -250,7 +250,7 @@
     <property name="geometry">
      <rect>
       <x>200</x>
-      <y>240</y>
+      <y>280</y>
       <width>68</width>
       <height>24</height>
      </rect>
@@ -270,8 +270,8 @@
    <widget class="QDoubleSpinBox" name="first_max">
     <property name="geometry">
      <rect>
-      <x>360</x>
-      <y>240</y>
+      <x>340</x>
+      <y>280</y>
       <width>68</width>
       <height>24</height>
      </rect>
@@ -299,7 +299,7 @@
     </property>
     <property name="font">
      <font>
-      <pointsize>12</pointsize>
+      <pointsize>16</pointsize>
      </font>
     </property>
     <property name="text">
@@ -310,18 +310,20 @@
     <property name="geometry">
      <rect>
       <x>60</x>
-      <y>86</y>
-      <width>121</width>
-      <height>20</height>
+      <y>90</y>
+      <width>671</width>
+      <height>61</height>
      </rect>
     </property>
     <property name="font">
      <font>
-      <pointsize>12</pointsize>
+      <pointsize>16</pointsize>
      </font>
     </property>
     <property name="text">
-     <string>Пример: &amp;N&amp;</string>
+     <string>Пример:
+У Васи есть &amp;N&amp; яблок, 2 яблока он отдал Пете... Сколько яблок осталось у Васи? 
+Для данной задачи ответ вычисляется по формуле N - 2</string>
     </property>
    </widget>
    <widget class="QPushButton" name="save">
@@ -381,8 +383,8 @@
     <rect>
      <x>0</x>
      <y>0</y>
-     <width>778</width>
-     <height>26</height>
+     <width>773</width>
+     <height>24</height>
     </rect>
    </property>
   </widget>
